@@ -73,7 +73,7 @@ export default {
     border-radius: 5px;
     background-color: #fff;
     margin-left: 5px;
-    padding: 5px;
+    padding: 5px 25px;
     &:hover {
       cursor: pointer;
     }

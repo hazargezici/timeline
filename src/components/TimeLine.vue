@@ -54,22 +54,23 @@ export default {
 .container {
   & .card {
     background-color: #fb748c;
-    height: 160px;
+    height: 180px;
     width: 360px;
     border-radius: 10px;
+    overflow: hidden;
     svg {
       border-radius: 10px;
+      height: 150px;
     }
   }
   & .timeline-container {
-    height: 100%;
-    width: 300px;
+    width: 85%;
     margin: auto;
     position: relative;
-    top: -100px;
+    top: -120px;
     border-radius: 5px;
     .blur {
-      height: 100px;
+      height: 120px;
       background-color: rgba(255, 255, 255, 0.4);
       -webkit-backdrop-filter: blur(5px);
       backdrop-filter: blur(5px);
@@ -122,7 +123,7 @@ export default {
         }
         transform: translateX(60%);
         &:before {
-          left: -31px;
+          left: -32px;
         }
 
         &:not(:last-child) {
